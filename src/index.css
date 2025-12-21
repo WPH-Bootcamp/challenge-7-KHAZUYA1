@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme {
+  /* Warna dari Figma */
+  --color-primary: #FF5530; /* Oranye */
+  --color-dark: #0A0A0A;    /* Hitam Background */
+  
+  /* Font */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Reset dasar */
+body {
+  background-color: var(--color-dark);
+  color: white;
+  font-family: var(--font-sans);
+}
